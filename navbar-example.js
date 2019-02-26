@@ -31,12 +31,30 @@ var navConfig = {
           openInNewTab: true,
           subNavElements: [
             {
-              id: "subsubnav1",
-              title: "Second Level 1",
+              id: "subnav2",
+              title: "Second Level",
               subNavElements: [
                 {
-                  id: "subsubsubnav",
-                  title: "Third Level 1"
+                  id: "subnav3",
+                  title: "Third Level",
+                  subNavElements: [
+                    {
+                      id: "subnav4",
+                      title: "Fourth Level",
+                      subNavElements: [
+                        {
+                          id: "subnav5",
+                          title: "Fifth Level",
+                          subNavElements: [
+                            {
+                              id: "subnav6",
+                              title: "Sixth Level"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
