@@ -94,29 +94,27 @@ var navConfig = {
   accountChangeHandler: function(navElementId) {
     console.log("accountChangeHandler " + navElementId);
   },
-  userProfileNavElements: [
-    {
-      id: "user-profile",
-      title: "User Profile",
-      icon: "User",
-      subNavElements: [
-        {
-          id: "settings",
-          title: "Settings",
-          route: "https://west.com"
-        },
-        {
-          id: "update-profile",
-          title: "Update Profile",
-          hasDivider: true
-        },
-        {
-          id: "change-pass",
-          title: "Change Password"
-        }
-      ]
-    }
-  ],
+  userProfileNavElements: {
+    id: "user-profile",
+    title: "User Profile",
+    icon: "User",
+    subNavElements: [
+      {
+        id: "settings",
+        title: "Settings",
+        route: "https://west.com"
+      },
+      {
+        id: "update-profile",
+        title: "Update Profile",
+        hasDivider: true
+      },
+      {
+        id: "change-pass",
+        title: "Change Password"
+      }
+    ]
+  },
   userProfileChangeHandler: function(navElementId) {
     console.log("userProfileChangeHandler " + navElementId);
   },
