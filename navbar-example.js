@@ -72,7 +72,7 @@ var navConfig = {
   },
   accountNavElement: {
     id: "default-user",
-    title: "Default User",
+    title: "Default User With a Long Label",
     subNavElements: [
       {
         id: "user-1",
